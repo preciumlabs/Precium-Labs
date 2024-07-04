@@ -87,8 +87,8 @@ export default function Partner() {
   };
   return (
     <div className=' w-[90%] mx-auto sm:py-[96px] py-[64px] text-center ' >
-      <h2 className=' f-f-r-b font-medium  text-lg sm:text-xl md:text-4xl text-primary  ' >
-        Partners/ PuppyLove Presence
+      <h2 className=' f-f-sm font-medium  text-lg sm:text-xl md:text-4xl text-white  ' >
+        Partners
       </h2>
 
       <Slider {...settings} className=' my-12 ' >

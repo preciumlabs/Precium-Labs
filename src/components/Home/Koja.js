@@ -13,7 +13,7 @@ export default function Koja() {
 
           <div className=' w-[94.3%] sm:w-10/12 md:w-7/12 lg:w-8/12 mx-auto text-center  ' >
             <h3 className=' f-f-sm text-4xl lg:text-5xl text-white leading-[60px]  sm:leading-[72px] ' >Welcome to Precium Labs</h3>
-            <h3 className=' f-f-m text-white text-xl lg:text-3xl py-5 sm:py-8 lg:py-0 lg:mt-0  ' >We are a blockchain based engineering Team.</h3>
+            <h3 className=' f-f-m text-white text-xl lg:text-3xl py-5 sm:py-8 lg:py-0 lg:mt-0' >We are a blockchain based engineering Team.</h3>
                             
             <h5 className=' f-f-m text-white text-base  pt-3 sm:pt-0 w-[322px] sm:w-full mx-auto ' >passionate about building blockchain based utility products while providing educational resources on blockchain technology.<br className='  hidden xl:block ' />We bring your dream dapps to live.</h5>
           </div>
