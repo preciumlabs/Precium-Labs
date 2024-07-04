@@ -1,14 +1,14 @@
 import React from 'react'
 import Slider from "react-slick";
-import partner1 from '../../assets/images/partner1.svg'
-import partner2 from '../../assets/images/partner2.svg'
-import partner3 from '../../assets/images/partner3.svg'
-import partner4 from '../../assets/images/partner4.svg'
-import partner5 from '../../assets/images/partner5.svg'
-import partner6 from '../../assets/images/partner6.svg'
-import partner7 from '../../assets/images/partner7.svg'
-import partner8 from '../../assets/images/partner8.svg'
-import partner9 from '../../assets/images/Pinksale.png'
+import partner1 from '../../assets/images/ethereum.png'
+import partner2 from '../../assets/images/binance.png'
+import partner3 from '../../assets/images/base.png'
+import partner4 from '../../assets/images/arbitrum.png'
+import partner5 from '../../assets/images/Solana.png'
+import partner6 from '../../assets/images/ton.png'
+import partner7 from '../../assets/images/Optimism.png'
+import partner8 from '../../assets/images/ethereum.png'
+import partner9 from '../../assets/images/binance.png'
 
 
 
