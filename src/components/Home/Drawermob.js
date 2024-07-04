@@ -28,23 +28,23 @@ export default function DrawerDefault({ open, setOpen }) {
         <ul className=" pl-4 " >
           <li>
             <a href="#Presale" onClick={closeDrawer} className=" f-f-m text-tiny text-black-dark  " >
-              Presale
+              About
             </a>
           </li>
        
           <li className=" mt-6 " >
             <a href="#Audit" onClick={closeDrawer} className=" f-f-m text-tiny text-black-dark  " >
-              Audit
+              What We Do
             </a>
           </li>
           <li className=" mt-6 " >
             <a  href="https://drive.google.com/file/d/16e3M-ORNDLKlRyAVl30xZU-QTGkHKhXA/view" className=" f-f-m text-tiny text-black-dark  " >
-              Whitepaper
+              Projects
             </a>
           </li>
           <li className=" mt-6 " >
             <a href="#Community" onClick={closeDrawer} className=" f-f-m text-tiny text-black-dark  " >
-              Community
+              Partners
             </a>
           </li>
         </ul>

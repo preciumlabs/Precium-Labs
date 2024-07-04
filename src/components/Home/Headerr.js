@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Logo from '../../assets/images/Logo.svg'
+import Logo from '../../assets/images/logo.png'
 import Drawermob from './Drawermob'
 
 export default function Header() {
@@ -34,11 +34,11 @@ export default function Header() {
       <div className=' w-[91%] 3xl:max-w-[1836px] mx-auto  mt-[27px] relative' >
 
 
-        <nav className={`  top-[27px] fixed  nav-bg-top w-[91%] 3xl:max-w-[1836px] z-[99] rounded-[60px] px-[16px] sm:px-2 md:px-8 mx-auto `}  >
+        <nav className={`  top-[27px] fixed bg-black   w-[91%] 3xl:max-w-[1836px] z-[99] rounded-[60px] px-[16px] sm:px-2 md:px-8 mx-auto `}  >
           <div className="   flex flex-wrap items-center justify-between mx-auto py-3">
             <a href="" className="flex items-center space-x-3 rtl:space-x-reverse">
               <img src={Logo} className=" w-[48px] h-[48px] " alt="Flowbite Logo" />
-              <span className="self-center f-f-sm text-tiny  whitespace-nowrap text-white ">PuppyLove</span>
+              <span className="self-center f-f-sm text-tiny  whitespace-nowrap text-white ">Precium Labs</span>
             </a>
             <button onClick={openDrawer} data-collapse-toggle="navbar-default" type="button" className=" mr-3 inline-flex items-center  justify-center text-sm  md:hidden " aria-controls="navbar-default" aria-expanded="false">
               <span className="sr-only">Open main menu</span>
@@ -49,17 +49,17 @@ export default function Header() {
             <div className="hidden w-full md:block md:w-auto" id="navbar-default">
               <ul className=" flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row space-x-8 lg:space-x-11 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-transparent ">
                 <li>
-                  <a href="#Presale" className="block py-2 px-3 text-white f-f-m text-tiny  rounded md:bg-transparent  md:p-0" aria-current="page">Presale</a>
+                  <a href="#Presale" className="block py-2 px-3 text-white f-f-m text-tiny  rounded md:bg-transparent  md:p-0" aria-current="page">About</a>
                 </li>
 
                 <li>
-                  <a href="#Community" className="block py-2 px-3 text-white f-f-m text-tiny rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 ">Community</a>
+                  <a href="#Community" className="block py-2 px-3 text-white f-f-m text-tiny rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 ">What We Do</a>
                 </li>
                 <li>
                   <a href="#Audit" className="block py-2 px-3 text-white f-f-m text-tiny rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 ">
                     <ul className=' inline-flex items-center ' >
                       <li>
-                        Audit
+                        Partners
                       </li>
                       <li className=' ml-3 ' >
                         <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -75,7 +75,7 @@ export default function Header() {
                   <a href="https://drive.google.com/file/d/16e3M-ORNDLKlRyAVl30xZU-QTGkHKhXA/view" className="block py-2 px-3 text-white f-f-m text-tiny rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 ">
                     <ul className=' inline-flex items-center ' >
                       <li>
-                        Whitepaper
+                        Projects
                       </li>
                       <li className=' ml-3 ' >
                         <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">

@@ -31,7 +31,7 @@ export default function index() {
         <div className=' relative' >
             <Header />
             <Koja />
-            <Storytime />
+            {/*<Storytime />
             <div id='Presale' >
                 <Puppysale />
             </div>
@@ -52,10 +52,12 @@ export default function index() {
             </div>
             <Faq />
             <Footer />
+            
 
             <button onClick={scrollToTop} className='  absolute bottom-[735px] sm:bottom-[587px] right-[27px] sm:right-[96px] ' >
                 <img src={Buttonup} className=' w-[54px] h-[54px] ' />
             </button>
+            */}
         </div>
     )
 }
